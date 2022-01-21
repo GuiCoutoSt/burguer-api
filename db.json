@@ -4,8 +4,82 @@
       "email": "kenzinho@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
-      "age": 38,
       "id": 1
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Hamburguer",
+      "category": "Sanduíches",
+      "price": 14.0,
+      "image": "https://i.imgur.com/TWcbQmo.png"
+    },
+    {
+      "id": 2,
+      "name": "X-Burguer",
+      "category": "Sanduíches",
+      "price": 16.0,
+      "image": "https://i.imgur.com/3VwE0ne.png"
+    },
+    {
+      "id": 3,
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 18.0,
+      "image": "https://i.imgur.com/4dlr2mK.png"
+    },
+    {
+      "id": 4,
+      "name": "Combo Kenzie",
+      "category": "Combos",
+      "price": 24.0,
+      "image": "https://i.imgur.com/k0KTXMi.png"
+    },
+    {
+      "id": 5,
+      "name": "Fanta Guaraná",
+      "category": "Sanduíches",
+      "price": 5.0,
+      "image": "https://i.imgur.com/FQjpDYw.png"
+    },
+    {
+      "id": 6,
+      "name": "Coca Cola",
+      "category": "Sanduíches",
+      "price": 7.0,
+      "image": "https://i.imgur.com/k0KTXMi.png"
+    },
+    {
+      "id": 7,
+      "name": "Milkshake Ovomaltine",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "image": "https://i.imgur.com/GQyQW64.png"
+    },
+    {
+      "id": 8,
+      "name": "Sunday",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "image": "https://i.imgur.com/k0KTXMi.png"
+    }
+  ],
+
+  "suggestions": [
+    {
+      "id": 1,
+      "text": "Poderiam adicionar mais opções de sobremesas.",
+      "userId": 1
+    }
+  ],
+
+  "cupoms": [
+    {
+      "id": 1,
+      "code": "KENZINHO",
+      "discount": 10.0
     }
   ]
 }
