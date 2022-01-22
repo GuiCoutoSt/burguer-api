@@ -14,56 +14,64 @@
       "name": "Hamburguer",
       "category": "Sanduíches",
       "price": 14.0,
-      "image": "https://i.imgur.com/TWcbQmo.png"
+      "image": "https://i.imgur.com/TWcbQmo.png",
+      "quantity": 1
     },
     {
       "id": 2,
       "name": "X-Burguer",
       "category": "Sanduíches",
       "price": 16.0,
-      "image": "https://i.imgur.com/3VwE0ne.png"
+      "image": "https://i.imgur.com/3VwE0ne.png",
+      "quantity": 1
     },
     {
       "id": 3,
       "name": "Big Kenzie",
       "category": "Sanduíches",
       "price": 18.0,
-      "image": "https://i.imgur.com/4dlr2mK.png"
+      "image": "https://i.imgur.com/4dlr2mK.png",
+      "quantity": 1
     },
     {
       "id": 4,
       "name": "Combo Kenzie",
       "category": "Combos",
       "price": 24.0,
-      "image": "https://i.imgur.com/TGHgJSr.png"
+      "image": "https://i.imgur.com/TGHgJSr.png",
+      "quantity": 1
     },
     {
       "id": 5,
       "name": "Fanta Guaraná",
       "category": "Sanduíches",
       "price": 5.0,
-      "image": "https://i.imgur.com/FQjpDYw.png"
+      "image": "https://i.imgur.com/FQjpDYw.png",
+      "quantity": 1
     },
     {
       "id": 6,
       "name": "Coca Cola",
       "category": "Sanduíches",
       "price": 7.0,
-      "image": "https://i.imgur.com/k0KTXMi.png"
+      "image": "https://i.imgur.com/k0KTXMi.png",
+      "quantity": 1
     },
     {
       "id": 7,
       "name": "Milkshake Ovomaltine",
       "category": "Sobremesas",
       "price": 10.0,
-      "image": "https://i.imgur.com/GQyQW64.png"
+      "image": "https://i.imgur.com/GQyQW64.png",
+      "quantity": 1
     },
     {
       "id": 8,
       "name": "Sunday",
       "category": "Sobremesas",
       "price": 10.0,
-      "image": "https://i.imgur.com/5hNbmcM.png"
+      "image": "https://i.imgur.com/5hNbmcM.png",
+      "quantity": 1
     }
   ],
 
