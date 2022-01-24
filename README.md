@@ -22,9 +22,9 @@ Para listar os cupons basta fazer uma requisição `GET` no endpoint `/cupoms`. 
 [
 	{
 	  "id": 1,
-    "code": "KENZINHO",
-		"dicount": 10.0
-  }
+    	  "code": "KENZINHO",
+	  "dicount": 10.0
+        }
 ]
 ```
 
@@ -127,9 +127,9 @@ Caso corra tudo bem, esse é o formato da resposta:
 {
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impob25kb2VAbWFpbC5jb20iLCJpYXQiOjE2NDIwOTI0NTMsImV4cCI6MTY0MjA5NjA1Mywic3ViIjoiMSJ9.f5wwehC5t5ER2dgmA-o560MjcOhzyyLxG7XrDvjwSuQ",
 	"user": {
-	  "email": "jhondoe@mail.com",
-	  "name": "Jhon Doe",
-    "id": 1
+	"email": "jhondoe@mail.com",
+	"name": "Jhon Doe",
+        "id": 1
   }
 ```
 
@@ -162,7 +162,7 @@ Alguns endpoints exigem que o usuário esteja logado. Essa é a estrutura base d
 ```json
 {
 	"email": "jhondoe@mail.com",
-  "password": "123456"
+        "password": "123456"
 }
 ```
 
@@ -174,10 +174,10 @@ Se tudo der certo, essa é a resposta esperada:
 {
 	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impob25kb2VAbWFpbC5jb20iLCJpYXQiOjE2NDIxMDA5NDEsImV4cCI6MTY0MjEwNDU0MSwic3ViIjoiMSJ9.kayLOprKoebmHalz5vb7mFj7zQ39-QrCVZTc8FEgbu4",
 	  "user": {
-	    "email": "jhondoe@mail.com",
-      "name": "Jhon Doe",
-      "id": 1
-    }
+	  "email": "jhondoe@mail.com",
+          "name": "Jhon Doe",
+          "id": 1
+          }
 }
 ```
 
@@ -215,7 +215,7 @@ Para cadastrar os sugestões, é necessário que o usuário esteja logado e seja
 
 ```json
 {
-	"text": "Poderiam adicionar mais opções de sobremesas.",
+  "text": "Poderiam adicionar mais opções de sobremesas.",
   "userId": 1
 }
 ```
@@ -225,7 +225,7 @@ Para cadastrar os sugestões, é necessário que o usuário esteja logado e seja
 ```json
 {
 	"text": "Poderiam adicionar mais opções de sobremesas.",
-  "userId": 1,
+        "userId": 1,
 	"id": 2
 }
 ```
@@ -239,8 +239,8 @@ Para listar os sugestões, é necessário que o usuário esteja logado. O `body`
 ```json
 {
 	"id": 1,
-  "text": "Poderiam adicionar mais opções de sobremesas.",
-  "userId": 1
+        "text": "Poderiam adicionar mais opções de sobremesas.",
+        "userId": 1
 }
 ```
 
